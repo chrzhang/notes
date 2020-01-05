@@ -1,6 +1,3 @@
-# notes
-minimal tutorials on how to do stuff
-
 ## Make a GitHub Pages static website for a React project
 - Have a React app in a **public** GitHub repo
   - In a pinch, use `create_react_app` to bootstrap a project
