@@ -18,3 +18,5 @@
   - select the Python interpreter
   - configure Python testing
   - run test discovery (can be toggled to on-save)
+- Avoid using a folder mounted on /mnt/c/ as that can lead to lag
+- Disable QuickEdit mode in Options to avoid having to hit <Enter> and having a suspended program
