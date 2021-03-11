@@ -20,3 +20,11 @@
   - run test discovery (can be toggled to on-save)
 - Avoid using a folder mounted on /mnt/c/ as that can lead to lag
 - Disable QuickEdit mode in Options to avoid having to hit <Enter> and having a suspended program
+- In VSCode, turn off file polling for `.git` files which causes an 'Unable to write index file' error on Github desktop.
+In Open Remote Settings >
+```
+"remote.WSL.fileWatcher.polling": true,
+"files.watcherExclude": {
+    "**/.git/**": true
+}
+```
