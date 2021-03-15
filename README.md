@@ -11,7 +11,8 @@
 - `npm run deploy`
 
 ## Using Visual Studio Code with Windows Subsystem for Linux
-- `code .` in the directory you're working in (should have a `venv` folder)
+- [See](https://superuser.com/questions/1365258/how-to-change-the-dark-blue-in-wsl-to-something-brighter) dark blue.
+-  `code .` in the directory you're working in (should have a `venv` folder)
 - Confirm in lower-left corner that you're on the intended distro
 - Under Extensions, install the Python extension and reload VSCode
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> to
