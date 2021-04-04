@@ -29,3 +29,4 @@ In Open Remote Settings >
     "**/.git/**": true
 }
 ```
+- Update to WSL 2 by following these [instructions](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
