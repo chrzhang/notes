@@ -25,6 +25,7 @@ In Open Remote Settings >
 }
 ```
 - Update to WSL 2 by following these [instructions](https://docs.microsoft.com/en-us/windows/wsl/install-win10). If you cannot `sudo apt-get update`, these [tips](https://github.com/microsoft/WSL/issues/4285#issuecomment-522201021) will help.
+- If the vim plugin messes with the built-in Ctrl+F search functionality, set `"vim.handleKeys": { "<C-f>": false }` in settings.
 
 
 ### Python
